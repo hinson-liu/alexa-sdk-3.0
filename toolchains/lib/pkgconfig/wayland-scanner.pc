@@ -1,0 +1,13 @@
+prefix=/home/work/buildroot/output/rockchip_rk3326_64_512m/host
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+datarootdir=${prefix}/share
+pkgdatadir=${datarootdir}/wayland
+bindir=${prefix}/bin
+wayland_scanner=${bindir}/wayland-scanner
+
+Name: Wayland Scanner
+Description: Wayland scanner
+Version: 1.18.0
+Cflags:-I${includedir}

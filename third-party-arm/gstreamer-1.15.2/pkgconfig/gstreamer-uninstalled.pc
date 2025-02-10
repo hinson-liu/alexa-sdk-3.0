@@ -1,0 +1,20 @@
+# the standard variables don't make sense for an uninstalled copy
+prefix=
+exec_prefix=
+libdir=@gstlibdir@
+# includedir is builddir because it is used to find gstconfig.h in places
+includedir=/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2
+toolsdir=/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2/tools
+pluginsdir=/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2/plugins
+girdir=/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2/gst
+bashhelpersdir=/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2/data/bash-completion/helpers
+helpersdir=/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2/libs/gst/helpers
+typelibdir=/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2/gst
+
+Name: GStreamer Uninstalled
+Description: Streaming media framework, Not Installed
+Version: 1.15.2
+Requires: glib-2.0, gobject-2.0
+Requires.private: gmodule-no-export-2.0  
+Libs: -L${libdir} -lgstreamer-1.0
+Cflags: -I/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2 -I/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2/libs -I/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2 -I/mnt/newdisk/liuxinxin/Alexa/project/third-party-arm/gstreamer-1.15.2/libs

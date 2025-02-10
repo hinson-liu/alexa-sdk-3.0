@@ -1,0 +1,11 @@
+prefix=/home/work/buildroot/output/rockchip_rk3326_64_512m/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Xdmcp
+Description: X Display Manager Control Protocol library
+Version: 1.1.3
+Requires: xproto
+Cflags: -I${includedir}
+Libs: -L${libdir} -lXdmcp

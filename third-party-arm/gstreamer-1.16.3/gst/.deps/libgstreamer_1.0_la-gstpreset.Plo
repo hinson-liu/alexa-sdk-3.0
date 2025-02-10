@@ -1,0 +1,935 @@
+libgstreamer_1.0_la-gstpreset.lo: gstpreset.c \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h \
+ gst_private.h ../config.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/galloca.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtypes.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/lib/glib-2.0/include/glibconfig.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmacros.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include/stddef.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include-fixed/limits.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include-fixed/syslimits.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/limits.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/libc-header-start.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/features.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/cdefs.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/wordsize.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/long-double.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/gnu/stubs.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/gnu/stubs-lp64.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/posix1_lim.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/local_lim.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/limits.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/posix2_lim.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/xopen_lim.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/uio_lim.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include/float.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gversionmacros.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/time.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/time.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/timesize.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/typesizes.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/time64.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/timex.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_timeval.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/clock_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/time_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_tm.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_timespec.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/clockid_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/timer_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_itimerspec.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/locale_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__locale_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/garray.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gasyncqueue.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gthread.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gatomic.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gerror.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include/stdarg.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gquark.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gutils.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdlib.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/waitflags.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/waitstatus.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/floatn.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/floatn-common.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/types.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdint-intn.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/endian.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/endian.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/byteswap.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/uintn-identity.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/select.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/select.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/sigset_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__sigset_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/sysmacros.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sysmacros.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/thread-shared-types.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/pthreadtypes-arch.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/alloca.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdlib-float.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gbacktrace.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/signal.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/signum.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/signum-generic.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/sig_atomic_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/siginfo_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__sigval_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/siginfo-arch.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/siginfo-consts.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/siginfo-consts-arch.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/sigval_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/sigevent_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sigevent-consts.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sigaction.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sigcontext.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/sigcontext.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/types.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/types.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/types.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/int-ll64.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/bitsperlong.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/bitsperlong.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/posix_types.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/stddef.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/posix_types.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/posix_types.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/stack_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/ucontext.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/procfs.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/time.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/user.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/procfs.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/procfs-id.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/procfs-prregset.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/procfs-extra.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sigstack.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/ss_flags.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_sigstack.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sigthread.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gbase64.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gbitlock.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gbookmarkfile.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gbytes.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gcharset.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gchecksum.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gconvert.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gdataset.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gdate.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gdatetime.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtimezone.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gdir.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/dirent.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/dirent.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/genviron.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gfileutils.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/ggettext.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/ghash.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/glist.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmem.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gnode.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/ghmac.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gchecksum.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/ghook.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/ghostutils.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/giochannel.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmain.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gpoll.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gslist.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gstring.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gunicode.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gkeyfile.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmappedfile.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmarkup.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmessages.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gvariant.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gvarianttype.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/goption.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gpattern.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gprimes.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gqsort.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gqueue.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/grand.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/grcbox.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/grefcount.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/grefstring.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmem.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmacros.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gregex.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gscanner.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gsequence.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gshell.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gslice.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gspawn.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gstrfuncs.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gstringchunk.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtestutils.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/string.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/strings.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gthreadpool.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtimer.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtrashstack.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtree.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gurifuncs.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/guuid.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gversion.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/gallocator.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/gcache.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/gcompletion.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/gmain.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/grel.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/gthread.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include-fixed/pthread.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sched.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sched.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_sched_param.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/cpu-set.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/setjmp.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct___jmp_buf_tag.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/glib-autocleanups.h \
+ ../gst/gstconfig.h gstregistry.h ../gst/gstplugin.h ../gst/gstobject.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib-object.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gbinding.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gobject.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gtype.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gvalue.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gparam.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gclosure.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gsignal.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gmarshal.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gboxed.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/glib-types.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/genums.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/glib-enumtypes.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gparamspecs.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gsourceclosure.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gtypemodule.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gtypeplugin.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gvaluearray.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gvaluetypes.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gobject-autocleanups.h \
+ ../gst/gstcontrolbinding.h ../gst/gstcontrolsource.h ../gst/gstclock.h \
+ ../gst/gstmacros.h ../gst/gststructure.h ../gst/gstdatetime.h \
+ ../gst/glib-compat.h ../gst/gstpluginfeature.h gststructure.h gstinfo.h \
+ gstplugin.h gstpad.h ../gst/gstbuffer.h ../gst/gstminiobject.h \
+ ../gst/gstallocator.h ../gst/gstmemory.h ../gst/gstcaps.h \
+ ../gst/gstcapsfeatures.h ../gst/gstmeta.h ../gst/gstbufferlist.h \
+ ../gst/gstpadtemplate.h ../gst/gstevent.h ../gst/gstformat.h \
+ ../gst/gstiterator.h ../gst/gsttaglist.h ../gst/gstsample.h \
+ ../gst/gstsegment.h ../gst/gstmessage.h ../gst/gstelement.h \
+ ../gst/gstpad.h ../gst/gstbus.h ../gst/gstelementfactory.h \
+ ../gst/gsturi.h ../gst/gstminiobject.h ../gst/gstquery.h ../gst/gsttoc.h \
+ ../gst/gstcontext.h ../gst/gstdevice.h ../gst/gststreams.h \
+ ../gst/gststreamcollection.h ../gst/gsttask.h ../gst/gsttaskpool.h \
+ gstelement.h gstdeviceprovider.h ../gst/gstdeviceproviderfactory.h \
+ ../gst/gstdeviceprovider.h gsttoc.h gstdatetime.h gsttracerutils.h \
+ ../gst/gstbin.h ../gst/gstutils.h ../gst/gstparse.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gmodule.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/stat.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stat.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/statx.h \
+ gsttypefind.h gstpreset.h gstchildproxy.h ../gst/gst.h \
+ ../gst/gstenumtypes.h ../gst/gstversion.h ../gst/gstatomicqueue.h \
+ ../gst/gstbufferpool.h ../gst/gstchildproxy.h ../gst/gstdebugutils.h \
+ ../gst/gstdevicemonitor.h ../gst/gstdynamictypefactory.h \
+ ../gst/gstelementmetadata.h ../gst/gsterror.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/errno.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/errno.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/errno.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/errno.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/errno.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/errno-base.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/error_t.h \
+ ../gst/gstghostpad.h ../gst/gstinfo.h ../gst/gstparamspecs.h \
+ ../gst/gstvalue.h ../gst/gstpipeline.h ../gst/gstpoll.h \
+ ../gst/gstpreset.h ../gst/gstprotection.h ../gst/gstregistry.h \
+ ../gst/gstpromise.h ../gst/gstsystemclock.h ../gst/gsttagsetter.h \
+ ../gst/gsttocsetter.h ../gst/gsttracer.h ../gst/gsttracerfactory.h \
+ ../gst/gsttracerrecord.h ../gst/gsttypefind.h \
+ ../gst/gsttypefindfactory.h ../gst/gstcompat.h gstvalue.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/unistd.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/posix_opt.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/environments.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/confname.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/getopt_posix.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/getopt_core.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gstdio.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gprintf.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdio.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__fpos_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__mbstate_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__fpos64_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__FILE.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/FILE.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_FILE.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/cookie_io_functions_t.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdio_lim.h \
+ /mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sys_errlist.h
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdc-predef.h:
+
+gst_private.h:
+
+../config.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/galloca.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtypes.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/lib/glib-2.0/include/glibconfig.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmacros.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include/stddef.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include-fixed/limits.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include-fixed/syslimits.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/limits.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/libc-header-start.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/features.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/cdefs.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/wordsize.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/long-double.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/gnu/stubs.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/gnu/stubs-lp64.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/posix1_lim.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/local_lim.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/limits.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/posix2_lim.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/xopen_lim.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/uio_lim.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include/float.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gversionmacros.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/time.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/time.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/timesize.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/typesizes.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/time64.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/timex.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_timeval.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/clock_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/time_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_tm.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_timespec.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/clockid_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/timer_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_itimerspec.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/locale_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__locale_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/garray.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gasyncqueue.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gthread.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gatomic.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gerror.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include/stdarg.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gquark.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gutils.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdlib.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/waitflags.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/waitstatus.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/floatn.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/floatn-common.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/types.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdint-intn.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/endian.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/endian.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/byteswap.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/uintn-identity.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/select.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/select.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/sigset_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__sigset_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/sysmacros.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sysmacros.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/pthreadtypes.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/thread-shared-types.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/pthreadtypes-arch.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/alloca.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdlib-float.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gbacktrace.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/signal.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/signum.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/signum-generic.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/sig_atomic_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/siginfo_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__sigval_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/siginfo-arch.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/siginfo-consts.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/siginfo-consts-arch.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/sigval_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/sigevent_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sigevent-consts.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sigaction.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sigcontext.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/sigcontext.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/types.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/types.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/types.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/int-ll64.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/bitsperlong.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/posix_types.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/stddef.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/posix_types.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/posix_types.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/stack_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/ucontext.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/procfs.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/time.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/user.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/procfs.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/procfs-id.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/procfs-prregset.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/procfs-extra.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sigstack.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/ss_flags.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_sigstack.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sigthread.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gbase64.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gbitlock.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gbookmarkfile.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gbytes.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gcharset.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gchecksum.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gconvert.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gdataset.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gdate.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gdatetime.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtimezone.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gdir.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/dirent.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/dirent.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/genviron.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gfileutils.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/ggettext.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/ghash.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/glist.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmem.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gnode.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/ghmac.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gchecksum.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/ghook.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/ghostutils.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/giochannel.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmain.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gpoll.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gslist.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gstring.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gunicode.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gkeyfile.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmappedfile.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmarkup.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmessages.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gvariant.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gvarianttype.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/goption.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gpattern.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gprimes.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gqsort.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gqueue.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/grand.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/grcbox.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/grefcount.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/grefstring.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmem.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gmacros.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gregex.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gscanner.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gsequence.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gshell.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gslice.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gspawn.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gstrfuncs.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gstringchunk.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtestutils.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/string.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/strings.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gthreadpool.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtimer.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtrashstack.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gtree.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gurifuncs.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/guuid.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gversion.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/gallocator.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/gcache.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/gcompletion.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/gmain.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/grel.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/deprecated/gthread.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/lib/gcc/aarch64-buildroot-linux-gnu/9.4.0/include-fixed/pthread.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sched.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sched.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_sched_param.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/cpu-set.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/setjmp.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/glib-autocleanups.h:
+
+../gst/gstconfig.h:
+
+gstregistry.h:
+
+../gst/gstplugin.h:
+
+../gst/gstobject.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib-object.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gbinding.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gobject.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gtype.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gvalue.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gparam.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gclosure.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gsignal.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gmarshal.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gboxed.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/glib-types.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/genums.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/glib-enumtypes.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gparamspecs.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gsourceclosure.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gtypemodule.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gtypeplugin.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gvaluearray.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gvaluetypes.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gobject/gobject-autocleanups.h:
+
+../gst/gstcontrolbinding.h:
+
+../gst/gstcontrolsource.h:
+
+../gst/gstclock.h:
+
+../gst/gstmacros.h:
+
+../gst/gststructure.h:
+
+../gst/gstdatetime.h:
+
+../gst/glib-compat.h:
+
+../gst/gstpluginfeature.h:
+
+gststructure.h:
+
+gstinfo.h:
+
+gstplugin.h:
+
+gstpad.h:
+
+../gst/gstbuffer.h:
+
+../gst/gstminiobject.h:
+
+../gst/gstallocator.h:
+
+../gst/gstmemory.h:
+
+../gst/gstcaps.h:
+
+../gst/gstcapsfeatures.h:
+
+../gst/gstmeta.h:
+
+../gst/gstbufferlist.h:
+
+../gst/gstpadtemplate.h:
+
+../gst/gstevent.h:
+
+../gst/gstformat.h:
+
+../gst/gstiterator.h:
+
+../gst/gsttaglist.h:
+
+../gst/gstsample.h:
+
+../gst/gstsegment.h:
+
+../gst/gstmessage.h:
+
+../gst/gstelement.h:
+
+../gst/gstpad.h:
+
+../gst/gstbus.h:
+
+../gst/gstelementfactory.h:
+
+../gst/gsturi.h:
+
+../gst/gstminiobject.h:
+
+../gst/gstquery.h:
+
+../gst/gsttoc.h:
+
+../gst/gstcontext.h:
+
+../gst/gstdevice.h:
+
+../gst/gststreams.h:
+
+../gst/gststreamcollection.h:
+
+../gst/gsttask.h:
+
+../gst/gsttaskpool.h:
+
+gstelement.h:
+
+gstdeviceprovider.h:
+
+../gst/gstdeviceproviderfactory.h:
+
+../gst/gstdeviceprovider.h:
+
+gsttoc.h:
+
+gstdatetime.h:
+
+gsttracerutils.h:
+
+../gst/gstbin.h:
+
+../gst/gstutils.h:
+
+../gst/gstparse.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/gmodule.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/sys/stat.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stat.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/statx.h:
+
+gsttypefind.h:
+
+gstpreset.h:
+
+gstchildproxy.h:
+
+../gst/gst.h:
+
+../gst/gstenumtypes.h:
+
+../gst/gstversion.h:
+
+../gst/gstatomicqueue.h:
+
+../gst/gstbufferpool.h:
+
+../gst/gstchildproxy.h:
+
+../gst/gstdebugutils.h:
+
+../gst/gstdevicemonitor.h:
+
+../gst/gstdynamictypefactory.h:
+
+../gst/gstelementmetadata.h:
+
+../gst/gsterror.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/errno.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/errno.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/linux/errno.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm/errno.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/errno.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/asm-generic/errno-base.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/error_t.h:
+
+../gst/gstghostpad.h:
+
+../gst/gstinfo.h:
+
+../gst/gstparamspecs.h:
+
+../gst/gstvalue.h:
+
+../gst/gstpipeline.h:
+
+../gst/gstpoll.h:
+
+../gst/gstpreset.h:
+
+../gst/gstprotection.h:
+
+../gst/gstregistry.h:
+
+../gst/gstpromise.h:
+
+../gst/gstsystemclock.h:
+
+../gst/gsttagsetter.h:
+
+../gst/gsttocsetter.h:
+
+../gst/gsttracer.h:
+
+../gst/gsttracerfactory.h:
+
+../gst/gsttracerrecord.h:
+
+../gst/gsttypefind.h:
+
+../gst/gsttypefindfactory.h:
+
+../gst/gstcompat.h:
+
+gstvalue.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/unistd.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/posix_opt.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/environments.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/confname.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/getopt_posix.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/getopt_core.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gstdio.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/usr/include/glib-2.0/glib/gprintf.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/stdio.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__fpos_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__mbstate_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__fpos64_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/__FILE.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/FILE.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/struct_FILE.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/types/cookie_io_functions_t.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/stdio_lim.h:
+
+/mnt/newdisk/liuxinxin/toolchains/rk3566_v1.2.4_openssl/aarch64-buildroot-linux-gnu/sysroot/usr/include/bits/sys_errlist.h:

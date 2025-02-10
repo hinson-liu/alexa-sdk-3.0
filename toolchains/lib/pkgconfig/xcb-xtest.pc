@@ -1,0 +1,11 @@
+prefix=/home/work/buildroot/output/rockchip_rk3326_64_512m/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: XCB XTEST
+Description: XCB XTEST Extension
+Version: 1.13
+Requires.private: xcb
+Libs: -L${libdir} -lxcb-xtest
+Cflags: -I${includedir}

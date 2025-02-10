@@ -1,0 +1,9 @@
+prefix=/home/work/buildroot/output/rockchip_rk3326_64_512m/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ 
+Name: WindowsWMProto
+Description: WindowsWM extension headers
+Version: 1.0.4
+Cflags: -I${includedir}

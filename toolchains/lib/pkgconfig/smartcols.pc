@@ -1,0 +1,10 @@
+prefix=/home/work/buildroot/output/rockchip_rk3326_64_512m/host
+exec_prefix=/home/work/buildroot/output/rockchip_rk3326_64_512m/host
+libdir=/home/work/buildroot/output/rockchip_rk3326_64_512m/host/lib
+includedir=/home/work/buildroot/output/rockchip_rk3326_64_512m/host/include
+
+Name: smartcols
+Description: table or tree library
+Version: 2.31.1
+Cflags: -I${includedir}/libsmartcols
+Libs: -L${libdir} -lsmartcols

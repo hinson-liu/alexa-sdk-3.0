@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 58.5.100
+Requires: 
+Requires.private: libavfilter >= 7.40.101, libswscale >= 5.3.100, libavformat >= 58.20.100, libavcodec >= 58.35.100, libswresample >= 3.3.100, libavresample >= 4.0.0, libavutil >= 56.22.100
+Conflicts:
+Libs: -L${libdir}  -lavdevice 
+Libs.private: -lm -L/home/work/buildroot/output/rockchip_rk3326_64_512m/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -ldrm -L/home/work/buildroot/output/rockchip_rk3326_64_512m/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lasound -L/home/work/buildroot/output/rockchip_rk3326_64_512m/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lSDL2
+Cflags: -I${includedir}

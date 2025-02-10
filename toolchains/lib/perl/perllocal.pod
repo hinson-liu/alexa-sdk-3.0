@@ -1,0 +1,22 @@
+=head2 Sun Feb  4 03:24:23 2024: C<Module> L<XML::Parser|XML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /home/work/buildroot/output/rockchip_rk3326_64_512m/host/lib/perl>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.44>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

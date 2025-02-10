@@ -1,0 +1,14 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 58.35.100
+Requires: 
+Requires.private: libswresample >= 3.3.100, libavutil >= 56.22.100
+Conflicts:
+Libs: -L${libdir}  -lavcodec 
+Libs.private: -pthread -lm -L/home/work/buildroot/output/rockchip_rk3326_64_512m/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lrockchip_mpp -L/home/work/buildroot/output/rockchip_rk3326_64_512m/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lz -ltheoraenc -ltheoradec -logg -L/home/work/buildroot/output/rockchip_rk3326_64_512m/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lvorbis -L/home/work/buildroot/output/rockchip_rk3326_64_512m/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lvorbisenc -lrga
+Cflags: -I${includedir}

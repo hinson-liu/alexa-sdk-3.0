@@ -1,0 +1,9 @@
+prefix=/home/work/buildroot/output/rockchip_rk3326_64_512m/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+ 
+Name: XProxyManagementProtocol
+Description: X Proxy Management Protocol headers
+Version: 1.0.3
+Cflags: -I${includedir}
